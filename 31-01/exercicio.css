@@ -1,0 +1,47 @@
+.div-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: cornflowerblue;
+    justify-content: space-between;
+}
+
+
+.div-2 {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: #76bbbd;
+}
+
+.div-3 {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: lightblue;
+}
+
+.div-filho2 {
+    height: 20vh;
+    width: 30px;
+}
+
+.div-pai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.div-filho {
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+}

@@ -1,0 +1,25 @@
+.div-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: mediumpurple;
+    justify-content: flex-end;
+}
+
+
+.div-column {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 5%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+}
+
+
+.div-filho {
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+}
