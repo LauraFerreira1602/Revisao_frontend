@@ -1,47 +1,63 @@
 .div-1 {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: cornflowerblue;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div-filho {
+    display: flex;
+    margin-right: 58px;
+    height: 7vh;
+    width: 60px;
+    color: #000000;
+    font-size: 19px;
+    align-items: center;
 }
 
 
 .div-2 {
     display: flex;
-    flex-direction: column;
-    height: 50vh;
+    flex-direction: row;
+    height: 40vh;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-top: 30px;
-    background-color: #76bbbd;
-}
-
-.div-3 {
-    display: flex;
-    flex-direction: row;
-    height: 50vh;
-    width: 30%;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 30px;
-    background-color: lightblue;
-}
-
-.div-filho2 {
-    height: 20vh;
-    width: 30px;
+    background-color: #d1d1d1;
+    font-size: 18px;
+    border-radius: 10px;
 }
 
 .div-pai {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 25px;
 }
-.div-filho {
-    margin: 5px;
-    padding: 5px;
-    background-color: white;
+
+
+.div-filho2 {
+    margin: 8px;
+    height: 290px;
+    width: 490px;
+    display: flex;
+    background-color: #a6a6a6;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.avisos {
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
 }
